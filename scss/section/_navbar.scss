@@ -1,0 +1,10 @@
+@use "../custom" as *;
+@use "../components/mixin" as *;
+
+.nav {
+  @include gradient;
+
+  li {
+    padding: 0 0.7rem;
+  }
+}
