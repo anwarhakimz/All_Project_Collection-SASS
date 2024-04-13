@@ -1,16 +1,19 @@
-@use "custom";
+// @use 'custom';
 
-@use "components/animation";
-@use "components/button";
-@use "components/mixin";
-@use "components/typography";
+// IMPORT THE COMPONENTS 
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
 
-@use "section/navbar";
-@use "section/hero";
-@use "section/campanies";
-@use "section/services";
-@use "section/testimoni";
-@use "section/faq";
-@use "section/portofolio";
-@use "section/getstarter";
-@use "section/footer";
+
+// IMPORT THE SECTIONS 
+@use 'sections/navbar';
+@use 'sections/intro-section';
+@use 'sections/campanies';
+@use 'sections/services';
+@use 'sections/testimonials';
+@use 'sections/faq';
+@use 'sections/portfolio';
+@use 'sections/get-started';
+@use 'sections/footer';
